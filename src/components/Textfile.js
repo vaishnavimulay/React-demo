@@ -49,10 +49,10 @@ export default function Textfile(props) {
                 <div className='mb-3'>
                     <textarea className='form-control' style={{background:props.mode === 'dark' ? 'gray' : 'white', color:props.mode === 'dark' ? 'white' : '#042743'}} value={text} onChange={handelOnChange} id="myBox" rows="8"></textarea>
                 </div>
-                <button className='btn btn-primary mx-1' onClick={handelCapitalize}>Convert to Capitalize</button>
-                <button className='btn btn-primary mx-1' onClick={handelUpperCase}>Convert to Uppercase</button>
-                <button className='btn btn-primary mx-1' onClick={handelLowerCase}>Convert to Lowercase</button>
-                <button className='btn btn-primary mx-1' onClick={handelClearText}>Clear Text</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handelCapitalize}>Convert to Capitalize</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handelUpperCase}>Convert to Uppercase</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handelLowerCase}>Convert to Lowercase</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handelClearText}>Clear Text</button>
             </div>
         </>
         
